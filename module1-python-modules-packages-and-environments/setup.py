@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="my-package-name",  # the name that you will install via pip
+    name="my-pkg-qianjing2020",  # the name that you will install via pip
     version="1.0",
-    author="Lamb Data",
-    author_email="your@email.com",
+    author="Jing Qian",
+    author_email="jjqian@gmail.com",
     description="A short demo for package distribution",
     long_description=long_description,
     # required if using a md file for long desc
