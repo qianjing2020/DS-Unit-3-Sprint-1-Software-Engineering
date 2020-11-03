@@ -7,15 +7,15 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my-pkg-qianjing2020",  # the name that you will install via pip
-    version="1.0",
+    version="0.0.1",
     author="Jing Qian",
     author_email="jjqian@gmail.com",
-    description="A short demo for package distribution",
+    description="A small package to test distribution via pypi",
     long_description=long_description,
     # required if using a md file for long desc
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/qianjing2020/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments",
     #keywords="",
-    packages=find_packages()  # ["my_lambdata"]
+    packages=find_packages() 
 )
