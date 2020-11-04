@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="my-pkg-qianjing2020",  # the name that you will install via pip
-    version="0.0.1",
+    version="0.0.2",
     author="Jing Qian",
     author_email="jjqian@gmail.com",
     description="A small package to test distribution via pypi",
