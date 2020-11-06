@@ -8,3 +8,9 @@ then upload package
 
 
 But if both conda and pipenv is activated, it will mess up. Won't be able to upload successfully to test pypi website. 
+
+
+## choose a license
+https://choosealicense.com/appendix/
+
+
