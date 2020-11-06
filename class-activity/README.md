@@ -9,6 +9,8 @@ then upload package
 
 But if both conda and pipenv is activated, it will mess up. Won't be able to upload successfully to test pypi website. 
 
+## first let python know module 
+```python -m my_package.my_module.py```
 
 ## choose a license
 https://choosealicense.com/appendix/

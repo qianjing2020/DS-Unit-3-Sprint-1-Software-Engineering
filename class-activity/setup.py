@@ -17,7 +17,8 @@ setup(
     license="MIT",
     url="https://github.com/qianjing2020/DS-Unit-3-Sprint-1-Software-Engineering/tree/master/module1-python-modules-packages-and-environments",
     #keywords="",
-    packages=find_packages(),
+    #packages=find_packages(),
+    packages=["my_lambdata"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
