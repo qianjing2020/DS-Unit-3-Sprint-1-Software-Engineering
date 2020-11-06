@@ -10,7 +10,6 @@ class DataFrameProcessor():
         self.df = df
         
     def add_state_name_col(self):
-        #new_df = self.df.copy()
 
         name_map = {
             "CA": "California",
@@ -18,9 +17,7 @@ class DataFrameProcessor():
             "CT": "Connecticut",
             "DC": "District of Columbia",
             "TX": "Texas"}
-        # breakpoint()
-        #new_df["name"] = new_df["state"].map(name_map)
-        #return new_df
+
         self.df["name"] = self.df["state"].map(name_map)
         
 
